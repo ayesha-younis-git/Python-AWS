@@ -21,4 +21,4 @@ def upload_to_aws(local_file, bucket, s3_file):
         return False
 
 
-uploaded = upload_to_aws('/content/passpage.jpg', 'mypy245', 'one')
+uploaded = upload_to_aws('local_file', 'bucket', 's3_file')
